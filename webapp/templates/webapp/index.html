@@ -1,0 +1,26 @@
+{% include 'webapp/header.html' %}
+{% load static %}
+
+<div id="content-wrapper" class="mt-4 style="padding-top: 1%;">
+    <div class="container-fluid">
+        <div class="card mb-2 col-md-12">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src ="{% static 'img/1.png' %}" style="padding-left: 20%;">
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="text-primary">BUILD YOUR CV</h1>
+                        <p class="welcome_text">A simple and quick way to create a new CV.</p>
+                        <p class="welcome_text">Fill in the blank form, generate and download pdf CV.</p>
+                        <a href=""><button class="startBtn">GET STARTED</button></a>
+                        <br/>
+                        <br/>
+                        <br/>
+                        {% include 'webapp/footer.html' %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
